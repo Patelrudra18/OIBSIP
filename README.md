@@ -1,7 +1,9 @@
 # OIBSIP - Python Programming Internship
 
 **Name:** Patel Rudra
+
 **Batch:** AICTE OIB-SIP May 2026 - P1
+
 **Email:** [d25dit098@charusat.edu.in](mailto:d25dit098@charusat.edu.in)
 
 ---
