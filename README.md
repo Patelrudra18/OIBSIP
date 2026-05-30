@@ -149,7 +149,3 @@ OIBSIP/
 
 **Organization:** Oasis Infobyte
 **Program:** AICTE OIB-SIP May 2026 – Python Programming Internship
-
----
-
-⭐ Thank you for reviewing this project repository.
