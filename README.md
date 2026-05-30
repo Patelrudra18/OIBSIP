@@ -1,24 +1,32 @@
-# OIBSIP - Python Programming Internship
+# OIBSIP – Python Programming Internship
 
-**Name:** Patel Rudra
+## Submitted By
 
-**Batch:** AICTE OIB-SIP May 2026 - P1
-
+**Patel Rudra**
+**Batch:** AICTE OIB-SIP May 2026 – P1
 **Email:** [d25dit098@charusat.edu.in](mailto:d25dit098@charusat.edu.in)
 
 ---
 
-## Tasks Submitted
+## Project Overview
 
-| # | Task               | Run Command                                                     |
-| - | ------------------ | --------------------------------------------------------------- |
-| 2 | BMI Calculator     | `python -m streamlit run PatelRudra_Task2_BMICalculator.py`     |
-| 3 | Password Generator | `python -m streamlit run PatelRudra_Task3_PasswordGenerator.py` |
-| 4 | Weather App        | `python -m streamlit run PatelRudra_Task4_WeatherApp.py`        |
+This repository contains the projects completed as part of the **Oasis Infobyte (OIBSIP) Python Programming Internship**. The projects are developed using Python and Streamlit, focusing on practical application development and user-friendly interfaces.
 
 ---
 
-## Installation (One Time Only)
+## Tasks Completed
+
+| Task No. | Project             | Run Command                                                     |
+| -------- | ------------------- | --------------------------------------------------------------- |
+| 2        | BMI Calculator      | `python -m streamlit run PatelRudra_Task2_BMICalculator.py`     |
+| 3        | Password Generator  | `python -m streamlit run PatelRudra_Task3_PasswordGenerator.py` |
+| 4        | Weather Application | `python -m streamlit run PatelRudra_Task4_WeatherApp.py`        |
+
+---
+
+## Installation
+
+Install the required dependencies before running any project:
 
 ```bash
 pip install streamlit requests
@@ -26,16 +34,36 @@ pip install streamlit requests
 
 ---
 
-## Task 2 — BMI Calculator
+## Project Demonstrations
+
+### BMI Calculator
+
+🎥 **Demo Video:**
+[Watch BMI Calculator Demo](https://drive.google.com/file/d/1EXpZ7bmpzMgLqcWnTh9qVLAgVJ3sDfB2/view?usp=sharing)
+
+### Password Generator
+
+🎥 **Demo Video:**
+[Watch Password Generator Demo](https://drive.google.com/file/d/1GtB2W6OnET6kDJ1vJl8NN3wcHtYJeTai/view?usp=sharing)
+
+### Weather Application
+
+🎥 **Demo Video:**
+[Watch Weather App Demo](https://drive.google.com/file/d/1xJCDGeMfUDfz6hxUGb8kzgaD2oh3IfEi/view?usp=sharing)
+
+---
+
+## Task 2 – BMI Calculator
 
 ### Features
 
-* Enter weight (kg) and height (m or cm)
-* Instant BMI result with color-coded card
-* Visual progress bar scale
-* BMI reference table
+* Calculate Body Mass Index (BMI) instantly
+* Support for weight and height inputs
+* Color-coded BMI status indicator
+* Visual BMI scale
+* BMI classification reference table
 
-### Run
+### Run Application
 
 ```bash
 python -m streamlit run PatelRudra_Task2_BMICalculator.py
@@ -43,17 +71,17 @@ python -m streamlit run PatelRudra_Task2_BMICalculator.py
 
 ---
 
-## Task 3 — Password Generator
+## Task 3 – Password Generator
 
 ### Features
 
-* Slider for length (6–32)
-* Toggle lowercase, uppercase, digits, and symbols
-* Exclude ambiguous characters option
-* Password strength meter
-* Download generated passwords as `.txt`
+* Custom password length selection
+* Lowercase, uppercase, numeric, and symbol options
+* Exclude ambiguous characters
+* Password strength evaluation
+* Download generated passwords as text files
 
-### Run
+### Run Application
 
 ```bash
 python -m streamlit run PatelRudra_Task3_PasswordGenerator.py
@@ -61,22 +89,22 @@ python -m streamlit run PatelRudra_Task3_PasswordGenerator.py
 
 ---
 
-## Task 4 — Weather App
+## Task 4 – Weather Application
 
 ### Features
 
-* Search any city worldwide
-* Current temperature
+* Search weather information for any city worldwide
+* Current temperature and weather conditions
 * Feels-like temperature
-* Humidity, wind speed, pressure, visibility
-* Sunrise and sunset times
-* Celsius/Fahrenheit toggle
-* 5-day weather forecast with icons
+* Humidity, wind speed, pressure, and visibility
+* Sunrise and sunset timings
+* Celsius and Fahrenheit support
+* Five-day weather forecast
 
-### Setup
+### API Configuration
 
-1. Create a free account at OpenWeatherMap.
-2. Generate an API key.
+1. Create an account on OpenWeatherMap.
+2. Generate a free API key.
 3. Open `PatelRudra_Task4_WeatherApp.py`.
 4. Replace:
 
@@ -84,9 +112,9 @@ python -m streamlit run PatelRudra_Task3_PasswordGenerator.py
 API_KEY = "YOUR_API_KEY"
 ```
 
-with your API key.
+with your personal API key.
 
-### Run
+### Run Application
 
 ```bash
 python -m streamlit run PatelRudra_Task4_WeatherApp.py
@@ -98,6 +126,7 @@ python -m streamlit run PatelRudra_Task4_WeatherApp.py
 
 ```text
 OIBSIP/
+│
 ├── PatelRudra_Task2_BMICalculator.py
 ├── PatelRudra_Task3_PasswordGenerator.py
 ├── PatelRudra_Task4_WeatherApp.py
@@ -106,5 +135,19 @@ OIBSIP/
 
 ---
 
-**AICTE OIB-SIP May 2026 | Python Programming Internship**
-**Submitted by: Patel Rudra**
+## Technologies Used
+
+* Python
+* Streamlit
+* OpenWeatherMap API
+
+---
+
+## Internship Information
+
+**Organization:** Oasis Infobyte
+**Program:** AICTE OIB-SIP May 2026 – Python Programming Internship
+
+---
+
+⭐ Thank you for reviewing this project repository.
